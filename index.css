@@ -15,7 +15,7 @@
   --fs-text: 16px;
 
   font-size: 62.5%;
-  /* esse clamp é pare flexibilidade de texto */
+  /* esse clamp é para flexibilidade de texto */
 }
 
 header {
