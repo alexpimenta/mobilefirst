@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --ff-heading: "Staatliches", sans-serif;
+  --ff-texting: "Palanquin", Sans-serif;
+  --cc-text: #4a4e69;
+  --cc-title: #ffffff;
+  --color-var: #eff1ff;
+
+  --fs-title: 20px;
+  --fs-text: 16px;
+
+  font-size: 62.5%;
+  /* esse clamp é pare flexibilidade de texto */
+}
+
+header {
+  margin: 0rem 0 1.4rem;
+
+  font-family: var(--ff-heading);
+  font-size: var(--fs-title);
+  color: var(--cc-title);
+
+  text-align: center;
+
+  background: #8e9aaf;
+}
+
+header h1 {
+  background-color: #cbc0d3;
+  margin-top: 45px;
+  letter-spacing: 0.05em;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 40.5rem;
+  display: grid;
+  gap: 3.2rem;
+  color: var(--cc-text);
+}
+
+main p {
+  align-items: center;
+  font-size: var(--fs-text);
+  margin-bottom: 6.3rem;
+  text-align: center;
+}
+
+.card {
+  position: relative;
+  display: grid;
+  gap: 3.2rem;
+}
+
+.card img {
+  border-radius: 2rem;
+}
+
+.card h1 {
+  font-family: var(--fs-title);
+  background: #feeafa;
+  position: absolute;
+  border-radius: 2rem;
+  padding: 2.4rem;
+  top: 1.6rem;
+  right: 1.6rem;
+
+  width: fit-content;
+  height: 3.8rem;
+
+  display: inline-flex;
+  align-items: center;
+}
